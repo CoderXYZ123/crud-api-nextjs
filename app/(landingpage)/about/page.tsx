@@ -25,7 +25,7 @@ export default async function AboutPage() {
           return (
             <>
               <p key={user.id}>
-                  <Link href={`/users/${user.id}`}>
+                  <Link href={`/about/users/${user.id}`}>
                     {user.name}
                   </Link>
               </p>
